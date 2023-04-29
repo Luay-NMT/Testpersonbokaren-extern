@@ -32,7 +32,7 @@ export default function SearchResult() {
           })
           setColumns([
             { field: 'testpersonId', headerName: 'Personidentitet', flex: 1, align: 'center', headerAlign: 'center' },
-            { field: 'bookingUserFullName', headerName: 'Bokad Av',  flex: 1, align: 'center', headerAlign: 'center' },
+            { field: 'bookingUserFullName', headerName: 'Bokad åt',  flex: 1, align: 'center', headerAlign: 'center' },
            
           ]);
         }
@@ -43,7 +43,7 @@ export default function SearchResult() {
           })
           setColumns([
             { field: 'testpersonId', headerName: 'Personidentitet', flex: 1, align: 'center', headerAlign: 'center' },
-            { field: 'bookingUserFullName', headerName: 'Bokad Av',  flex: 1, align: 'center', headerAlign: 'center' },
+            { field: 'bookingUserFullName', headerName: 'Bokad åt',  flex: 1, align: 'center', headerAlign: 'center' },
            
           ]);
         }
