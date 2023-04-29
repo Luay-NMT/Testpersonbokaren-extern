@@ -31,7 +31,7 @@ function Bookings() {
     
     const columns = [
       { field: 'testpersonId', headerName: 'Personidentitet', flex: 1, align: 'center', headerAlign: 'center' },
-      { field: 'ownerName', headerName: 'Bokad Av',  flex: 1, align: 'center', headerAlign: 'center' } ];
+      { field: 'ownerName', headerName: 'Bokad åt',  flex: 1, align: 'center', headerAlign: 'center' } ];
 
     const [rows, setData] = useState([]);
 
